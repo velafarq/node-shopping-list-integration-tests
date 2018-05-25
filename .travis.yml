@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: secret-caverns-64894
+  provider: heroku
+  api_key:
+    secure: O4ce+54uCJqyz2OH0pWO11XZ4+hSFnk2fgzXtAzx0Vuy/A2hebwrAfse7HBzm18HURjwoe2G+ppQye++4IKECMO70tXnWGnWIwS1J1Zv2tUG+W+rItAfWLP9jRxA/swov2ab8lfdcq02NNWGxrJphRny3tksMIa5HnLloIBQfcV6shYlQQ919fVHky3NfeogTcuDhZVZ6sgkFShQLeDwCODgcGfnvk7QDENDBunhwp2Ozp/AJmmegT+68Ut2Rojid3CFyA1fK20Pyg7VcypDbqP2fIH/tMoLn0aWEvnHBoT2b2qJd8uZJ9T9ruZCrvO+tB2P1TGVgyCqvL8y6fWJrA5jkgT1cuweWO5I6bWFmIID3rchdnT4NdEyjARu8PyClZIJXl+pEznkJAVLg0IDs+QntpHw95DUzweHB30vbbdZ5WkBBRQka9q8MseSrriPX/y5atffTpLJJima7ZZyKFDBnDJp4RKwj+KeKeHumLXHEdezx5vWjpbNVQBlVSLhi1Hq6OmzaRw4XYZG1rvqI9kXVNRhGoGiRUJNR/+c4OmUuwra6R2VjA/YiBusXfNDa9dr7I1SpOZ/Ln0fv7OJmixSMfzpLKJIn95SeOXfrcHH0a4aui+j5Tu3GbNmuxsWuGoZfvL/6aVGsZ7N9gE52zV/MjLEFn9h/702JdYrZa0=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: velafarq/node-shopping-list-integration-tests
